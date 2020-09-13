@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <title></title>
+</head>
+<body>
+ 
+      <legend> Registration Form </legend>
+
+ <table border="1">
+        <tr>
+
+	<tr>
+          <td>Email:</td>
+          <td><input type="text" id="txtemail" name="txtemail" placeholder="Enter email address..." />
+	</td>
+        </tr>
+
+	<tr>
+          <td>Mobile Number:</td>
+          <td><input type="text" id="txtnumber" name="txtnumber" placeholder="Enter mobile number..." />
+	</td>
+        </tr>
+
+
+          <td>Username:</td>
+          <td><input type="text" 
+                     id="txtName" 
+                     name="txtName"
+                     placeholder="Enter username..."
+                     />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" id="txtPassword" name="txtPassword" placeholder="Enter password..." /></td>
+        </tr>
+
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <input type="radio" 
+                   id="genderType" 
+                   name="genderType"
+                   value = "Male"
+                   selected="selected"/>
+            <label for="genderType">Male</label>
+            
+            <input type="radio"
+                   id="genderType"
+                   name="genderType"
+                   value="Female"/>
+            <label for="genderType">Female</label>            
+          </td>
+        </tr>
+        
+        <tr>
+          <td colspan="2">
+            Membership:
+            <select name="drpLoginType" id="drpLoginType">
+              <option value="Trial Membership">Trial Membership</option>
+              <option value="Premium Membership">Premium Membership</option>
+
+            </select>
+            
+          </td>
+        </tr>
+        
+
+ <tr>
+          <td colspan="2">
+            Zodiac Sign:
+            <select name="drpzodiacType" id="drpzodiacType">
+              <option value="Aquarius">Aquarius</option>
+              <option value="Pisces">Pisces</option>
+              <option value="Aries">Aries</option>
+              <option value="Taurus">Taurus</option>
+              <option value="Gemini">Gemini</option>
+              <option value="Cancer">Cancer</option>
+              <option value="Leo">Leo</option>
+              <option value="Virgo">Virgo</option>
+              <option value="Libra">Libra</option>
+              <option value="Scorpio">Scorpio</option>
+              <option value="Sagittarius">Sagittarius</option>
+              <option value="Capricorn">Capricorn</option>
+
+
+            </select>
+            
+          </td>
+        </tr>
+        
+
+
+
+
+
+        <tr>
+          <td colspan="2">
+            <input type="checkbox" 
+                   id="cbxPolicy1"
+                   name="cbxPolicy1"
+                   value="I accept Terms and Policy"/>
+            <label for="cbxPolicy1">I accept Terms and Policy</label>
+          </td>
+        </tr>
+        
+        <tr>
+          <td colspan="2">
+
+            <input type="checkbox" 
+                   id="cbxconfirmation"
+                   name="cbxconfirmation"
+                   value="Confirmation"/>
+            <label for="cbxPolicy2">Confirmation</label>
+          </td>
+        </tr>        
+        
+        <tr>
+          <td colspan="2" align="right">
+            <button id="btnRegister" onClick="alert(document.getElementById('txtName').value)">Register</button>
+          </td>
+        </tr>
+      </table>
+  
+</body>
+</html>
