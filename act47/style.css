@@ -1,0 +1,87 @@
+html {background-color : white;
+	background-image: url("background.png");
+background-repeat: no-repeat;
+background-attachment:scroll;
+background-size: cover;
+}
+
+body {
+    width : 980px;
+    margin-left : auto;
+    margin-right : auto;
+    font-size : 1.2em;
+    color : #D0D0D0;
+    background-color : black;
+    padding : 10px;
+    padding-top : 0px;
+}
+h2
+{
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+
+
+img.top-image {
+    height : 250px;
+    float : right;
+    margin-top : 10px;
+  margin-right : 30px;
+margin-left : 30px;}
+
+aside {
+
+    float : bottom-left;
+    width : 320px;
+    margin-top: 100;
+    margin-right: 20px;
+    margin-bottom : 15px;
+    background-color : #D0D0D0 ;
+    padding : 10px;
+    border : 10px blue;
+  color: black;
+}
+
+aside h2 {
+  font-size: 1.50em;
+}
+aside h1 {
+    font-size :1.2em;
+    margin-top : 1px;
+}
+aside p {
+  margin-top:1px;
+}
+  
+ aside div {
+    padding : 5px;
+    background-color : #b6ada6;
+    margin-bottom : 15px;
+}
+aside ul {
+    line-height : 1.8em;
+    list-style-type : square;
+    color : blue;
+}
+img.side-image {
+     width: 590px; 
+     height: 917px; 
+    float : right;
+    margin-top : 10px;
+  margin-right : 10px;
+margin-left : 100px;
+border: 13px solid blue;
+  position: center;
+}
+
+footer {
+    text-align : center;
+    font-size : 0.8em;
+    font-style : italic;
+}
+.profile-img {
+	border-radius: 25px;
+	height: 32px;
+    width: 32px;
+    position: relative;
+    top: 5px;}
