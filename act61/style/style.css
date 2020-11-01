@@ -1,0 +1,16 @@
+post-number{
+    color: grey;
+}
+div.row.justify-content-center {
+    width: 50%;
+    margin-left: 350px;
+    justify-content: center;
+}
+.content-fluid {
+    justify-content: center;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
